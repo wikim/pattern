@@ -3,7 +3,7 @@ package hf.pattern.factory.fm;
 public class ChicagoPizzaStore extends PizzaStore {
 
 	Pizza createPizza(String item) {
-        	if (item.equals("cheese")) {
+        	if (item.equals("cheese222")) {
             		return new ChicagoStyleCheesePizza();
         	} else if (item.equals("veggie")) {
         	    	return new ChicagoStyleVeggiePizza();
